@@ -56,16 +56,21 @@
 }
 
 - (IBAction)fourthBug:(id)sender {
-	static NSInteger count = 1;
-	if (count>=1) {
+    // check if there are any elements
+    NSArray *models = [CoreDataHelpers arrayForFetchRequestWithName:@"AllModels"];
+    
+    // if there are some elements clean it for the purpose of this task
+	if (models.count>0) {
 		[CoreDataHelpers cleanData];
 	}
+    
+    // fill the db
+    [CoreDataHelpers fillUnsortedData];
+
+    // obtain all objects created momment ago
+    models = [CoreDataHelpers arrayForFetchRequestWithName:@"AllModels"];
 	
-	[CoreDataHelpers fillUnsortedData];
-	NSArray *models = [CoreDataHelpers arrayForFetchRequestWithName:@"AllModels"];
 	NSLog(@"%@", models);
-	
-	count++;
 }
 
 - (IBAction)fifthBug:(id)sender {
