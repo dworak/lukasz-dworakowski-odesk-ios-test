@@ -1,12 +1,11 @@
 //
 //  AppDelegate.m
 //  BuggyProject
-//
-//  Created by Nabi Makhmudov on 3/4/14.
 //  Copyright (c) 2014 oDesk Corporation. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "SomeClass.h"
 
 @implementation AppDelegate
 
@@ -16,11 +15,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
-    self.window.backgroundColor = [UIColor whiteColor];
-    [self.window makeKeyAndVisible];
-    return YES;
+    
+	[self performSelectorInBackground:@selector(someMethodWhichShouldBeRunInBackground) withObject:nil];
+	
+	return YES;
+}
+
+- (void)someMethodWhichShouldBeRunInBackground {
+	[SomeClass printTextInMain:@"Hello world!"];
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

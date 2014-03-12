@@ -22,6 +22,12 @@
 		A3FB6ECB18C5F0B500F3E7D8 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FB6EAF18C5F0B500F3E7D8 /* CoreData.framework */; };
 		A3FB6ED318C5F0B500F3E7D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3FB6ED118C5F0B500F3E7D8 /* InfoPlist.strings */; };
 		A3FB6ED518C5F0B500F3E7D8 /* BuggyProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB6ED418C5F0B500F3E7D8 /* BuggyProjectTests.m */; };
+		A3FB6EDF18C5F11B00F3E7D8 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3FB6EDE18C5F11B00F3E7D8 /* Storyboard.storyboard */; };
+		A3FB6EE218C5F1A500F3E7D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB6EE118C5F1A500F3E7D8 /* ViewController.m */; };
+		A3FB6F2618C6007200F3E7D8 /* SomeClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB6F2518C6007200F3E7D8 /* SomeClass.m */; };
+		A3FB6F2918C6024500F3E7D8 /* CoreDataHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB6F2818C6024500F3E7D8 /* CoreDataHelpers.m */; };
+		A3FB6F3218C6052C00F3E7D8 /* ModelsEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB6F3118C6052C00F3E7D8 /* ModelsEntity.m */; };
+		A3FB6F3518C6052C00F3E7D8 /* OwnerEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = A3FB6F3418C6052C00F3E7D8 /* OwnerEntity.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,17 @@
 		A3FB6ED018C5F0B500F3E7D8 /* BuggyProjectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuggyProjectTests-Info.plist"; sourceTree = "<group>"; };
 		A3FB6ED218C5F0B500F3E7D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3FB6ED418C5F0B500F3E7D8 /* BuggyProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuggyProjectTests.m; sourceTree = "<group>"; };
+		A3FB6EDE18C5F11B00F3E7D8 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		A3FB6EE018C5F1A500F3E7D8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A3FB6EE118C5F1A500F3E7D8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A3FB6F2418C6007200F3E7D8 /* SomeClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SomeClass.h; sourceTree = "<group>"; };
+		A3FB6F2518C6007200F3E7D8 /* SomeClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SomeClass.m; sourceTree = "<group>"; };
+		A3FB6F2718C6024500F3E7D8 /* CoreDataHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelpers.h; sourceTree = "<group>"; };
+		A3FB6F2818C6024500F3E7D8 /* CoreDataHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelpers.m; sourceTree = "<group>"; };
+		A3FB6F3018C6052C00F3E7D8 /* ModelsEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelsEntity.h; sourceTree = "<group>"; };
+		A3FB6F3118C6052C00F3E7D8 /* ModelsEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelsEntity.m; sourceTree = "<group>"; };
+		A3FB6F3318C6052C00F3E7D8 /* OwnerEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OwnerEntity.h; sourceTree = "<group>"; };
+		A3FB6F3418C6052C00F3E7D8 /* OwnerEntity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OwnerEntity.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +134,17 @@
 			children = (
 				A3FB6EBA18C5F0B500F3E7D8 /* AppDelegate.h */,
 				A3FB6EBB18C5F0B500F3E7D8 /* AppDelegate.m */,
+				A3FB6EDE18C5F11B00F3E7D8 /* Storyboard.storyboard */,
+				A3FB6EE018C5F1A500F3E7D8 /* ViewController.h */,
+				A3FB6EE118C5F1A500F3E7D8 /* ViewController.m */,
+				A3FB6F2418C6007200F3E7D8 /* SomeClass.h */,
+				A3FB6F2518C6007200F3E7D8 /* SomeClass.m */,
+				A3FB6F2718C6024500F3E7D8 /* CoreDataHelpers.h */,
+				A3FB6F2818C6024500F3E7D8 /* CoreDataHelpers.m */,
+				A3FB6F3018C6052C00F3E7D8 /* ModelsEntity.h */,
+				A3FB6F3118C6052C00F3E7D8 /* ModelsEntity.m */,
+				A3FB6F3318C6052C00F3E7D8 /* OwnerEntity.h */,
+				A3FB6F3418C6052C00F3E7D8 /* OwnerEntity.m */,
 				A3FB6EC018C5F0B500F3E7D8 /* Images.xcassets */,
 				A3FB6EBD18C5F0B500F3E7D8 /* BuggyProject.xcdatamodeld */,
 				A3FB6EB218C5F0B500F3E7D8 /* Supporting Files */,
@@ -230,6 +258,7 @@
 			files = (
 				A3FB6EB618C5F0B500F3E7D8 /* InfoPlist.strings in Resources */,
 				A3FB6EC118C5F0B500F3E7D8 /* Images.xcassets in Resources */,
+				A3FB6EDF18C5F11B00F3E7D8 /* Storyboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,8 +277,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3FB6F3518C6052C00F3E7D8 /* OwnerEntity.m in Sources */,
 				A3FB6EBC18C5F0B500F3E7D8 /* AppDelegate.m in Sources */,
+				A3FB6F3218C6052C00F3E7D8 /* ModelsEntity.m in Sources */,
+				A3FB6F2618C6007200F3E7D8 /* SomeClass.m in Sources */,
+				A3FB6F2918C6024500F3E7D8 /* CoreDataHelpers.m in Sources */,
 				A3FB6EBF18C5F0B500F3E7D8 /* BuggyProject.xcdatamodeld in Sources */,
+				A3FB6EE218C5F1A500F3E7D8 /* ViewController.m in Sources */,
 				A3FB6EB818C5F0B500F3E7D8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
