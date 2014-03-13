@@ -68,10 +68,8 @@
     [CoreDataHelpers fillUnsortedData];
 
     
-    // obtain all objects created momment ago if it was there before
-    if(models.count==0) {
-        models = [CoreDataHelpers arrayForFetchRequestWithName:@"AllModels"];
-    }
+    // obtain all objects created momment ago
+    models = [CoreDataHelpers arrayForFetchRequestWithName:@"AllModels"];
 	
 	NSLog(@"%@", models);
 }
